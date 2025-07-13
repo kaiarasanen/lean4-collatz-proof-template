@@ -1,0 +1,3 @@
+build/
+lake-manifest.json
+.lean_cache/
