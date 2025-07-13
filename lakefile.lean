@@ -1,8 +1,6 @@
 import Lake
 open Lake DSL
 
-package «lean4-collatz-proof-template» {
-}
+package collatz {}
 
-require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git" @ "nightly"
+lean_lib CollatzProof
