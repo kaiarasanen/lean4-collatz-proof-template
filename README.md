@@ -2,6 +2,7 @@
 
 *Kaia Räsänen — July 2025*  
 [Formal proof in Lean](CollatzProof.lean)
+![Lean build](https://github.com/kaiarasanen/lean4-collatz-proof-template/actions/workflows/lean.yml/badge.svg)
 
 ## 🌱 A Gentle Walk through the Collatz Field
 
