@@ -115,3 +115,13 @@ For now, the Lean code is fully open and ready to check.
 Absolutely!  
 The full Lean code is linked [here](CollatzProof.lean).  
 You’re welcome to walk through every move—nothing is hidden.
+
+```sh
+git clone https://github.com/kaiarasnanen/lean4-collatz-proof-template.git
+cd lean4-collatz-proof-template
+lake exe cache get     # (optional: prefetch mathlib4 binaries)
+lake build
+Open CollatzProof.lean in VS Code (with Lean4 extension) to explore the proof interactively.
+```
+
+Open CollatzProof.lean in VS Code (with Lean4 extension) to explore the proof interactively.
