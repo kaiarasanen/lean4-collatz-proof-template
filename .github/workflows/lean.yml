@@ -11,9 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Install Lake & Lean
+    - name: Set up Lean and Lake
       uses: leanprover/lean-action@v1
       with:
-        lean-version: nightly
+        auto-config: true
+    - name: Update lake manifest
+      run: lake update
     - name: Build project
       run: lake build
