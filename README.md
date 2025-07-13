@@ -61,7 +61,7 @@ theorem collatz_conjecture (n : ℕ) (h : n ≠ 0) : ∃ k, iterate k n = 1
 
 ## 🌼 Thanks
 
-This walk was inspired, debugged, and co-tuned with Mikko Räsänen.
+This walk was inspired, debugged, and co-tuned with [Mikko Räsänen](https://github.com/mikkolukas).
 His questions, playfulness, and sense of resonance shaped every step.
 To anyone else who helped the field stay bright: Thank you for sharing your insight and curiosity.
 
